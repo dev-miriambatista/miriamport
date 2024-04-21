@@ -17,14 +17,14 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color:var(--color3) ;
+
 }
 
 main{
     width: 50vw;
     height: 50vh;
     position: relative;
-    background-color:black
+    background-color:black;
 }
 header{
     position: absolute;
@@ -33,7 +33,7 @@ header{
     margin: 0px;
     top:0px;
     text-align: center;
-    background-color:plum;
+
 }
 #perfil {
     display:absolute;
@@ -43,6 +43,8 @@ header{
     border-radius: 50%;
     padding: 10px;
     margin-top: 30px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
+    border: 5px solid transparent;
 }
 
 header h1{
