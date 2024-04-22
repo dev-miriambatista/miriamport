@@ -1,11 +1,11 @@
 @charset "utf-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root{
 --color1:#BAD9C2;
 --color2:#F2E0C9; 
 --color3:#a77399; 
 --color4:#b38aec;
---color5:#43BDD9;
+--color5:#2d259e;
 --color6:#D97855; 
 }
 
@@ -21,37 +21,39 @@ html,body{
 }
 
 main{
-    width: 50vw;
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    background-color:black;
+  
 }
 header{
     position: absolute;
-    width: 100vw;
+    width: vw;
     height:100vh;
     margin: 0px;
     top:0px;
     text-align: center;
+    background-color:#2d259e;
 
 }
 #perfil {
     display:absolute;
-    width:50vw;
-    height: 45vh;
+    width:150px;
+    height:150px;
     text-align: center;
     border-radius: 50%;
     padding: 10px;
     margin-top: 30px;
-    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #13f78c, #0be6e6, #f700c5) border-box;
+
     border: 5px solid transparent;
 }
 
 header h1{
 display: absolute;
-width: 100vw;
+width: 40vw;
 text-align:center;
 margin-top: 10px;
+font-family: Nunito;
 } 
 
 
