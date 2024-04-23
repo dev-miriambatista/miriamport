@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand+SC&display=swap');
 
 :root {
     --cor1: #BAD9C2;
@@ -16,29 +17,35 @@ html,body{
     padding: 0px;
     width: 98vw;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #f5cbb2;
     border-radius: 15px;
 }
 
 
 nav {
-    display:inline;
- 
     grid-column: 1/5;
-    height: 50px;
+    height: 120px;
     background-color: #9e6262;
     color: #ffffff;
+    margin-top: 15px;
 }
 
 nav a {
     text-decoration: none;
     list-style: none;
+    color: #ffffff;
 }
 
-.imagem-esquerda {
-    margin-right: 10px; /* Espaçamento opcional entre a imagem e o conteúdo */
-}
+li{
+    display:inline;
+    margin-right: 30px;
+    font: normal bold 2em Patrick Hand SC;
+    right: 10px;
+    color: #ffffff;
+   
 
+    
+}
 
 .foto-perfil{
     display: flex;
@@ -51,7 +58,15 @@ header{
     background-color: rgba(79, 136, 79, 0.39);
     align-items:center;
     justify-content:center;
-
+}
+header h1{
+    display: flex;
+   
+    text-align: center;
+    align-items:center;
+    justify-content:left;
+    font: normal bold 2em Patrick Hand SC;
+    text-shadow: 3px 3px 3px gray;
 }
 
 
@@ -71,13 +86,15 @@ footer{
 }
 
 .grid-wrapper>*{
-   
     border-radius: 4px;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: right;
     border-radius: 15px;
-    gap:10px;
+    gap: 10px;
+
+    margin-bottom: 0px;
+    margin-left: 5px;
 }
 
 .grid-wrapper{
