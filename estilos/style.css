@@ -38,10 +38,6 @@ main{
 nav {
     display: grid;
     grid-column: 2/4;
-    
-
-  
-   
     background-color: #9e626273;
     color: #ffffff;
     margin-top: 15px;
